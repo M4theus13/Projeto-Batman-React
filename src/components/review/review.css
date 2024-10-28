@@ -1,0 +1,55 @@
+.review-container {
+  width: 100%;
+  height: 470px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 7px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.foto-usuario {
+  width: 50px;
+  margin-top: 20px;
+}
+
+.start-text {
+  font-size: 20px;
+}
+
+.text-review {
+  background-color:  transparent;
+  margin: 20px;
+  text-align: left;
+}
+
+
+.review-container h3 {
+  background-color:  transparent;
+  margin-block: 25px;
+}
+
+
+
+@media (max-width: 768px) { 
+
+  .review-container {
+    height: 460px;
+  }
+
+  .text-review {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) { 
+
+  .review-container {
+    width: 300px;
+  }
+}

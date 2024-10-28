@@ -1,0 +1,52 @@
+.comentario-box {
+  width: 100%;
+  height: calc(100vh - 90px);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+form div, form h1{
+  background-color: transparent;
+  width: 100%;
+}
+
+form {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 700px;
+  margin: 50px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+}
+
+input, textarea {
+  width: 70%;
+  color: white;
+  resize: none;
+  border: none;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) { 
+  .comentario-box {
+    height: 70vh;
+    background-position: 50%;
+  }
+
+  form {
+    padding: 10px;
+  }
+
+  input, textarea {
+    width: 90%;
+  }
+}

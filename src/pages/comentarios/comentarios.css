@@ -1,0 +1,21 @@
+.comentario-container {
+  height: 100vh;
+  background-size: contain;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 20px;
+  padding-inline: 20px;
+}
+
+
+
+@media (max-width: 768px) { 
+  .comentario-container {
+    grid-template-columns: 1fr;
+    height: auto;
+
+    padding-block: 20px;
+    padding-inline: 0;
+  }
+}

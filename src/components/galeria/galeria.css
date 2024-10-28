@@ -1,0 +1,16 @@
+
+.galeria-card {
+  background-size: cover;
+  transition: .5s;
+}
+
+.galeria-card:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) { 
+  .galeria-card {
+    height: 200px;
+    background-position: 50%;
+  }
+}
