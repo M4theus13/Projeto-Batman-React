@@ -18,10 +18,10 @@ function App() {
         <BrowserRouter>
           <Header></Header>
           <Routes>
-            <Route path='/' element={<Home />}></Route> 
-            <Route path='/contato' element={<Contato />}></Route> 
-            <Route path='/fotos' element={<Fotos />}></Route> 
-            <Route path='/comentarios' element={<Comentarios />}></Route> 
+            <Route path='/Projeto-Batman-React/Home' element={<Home />}></Route> 
+            <Route path='/Contato' element={<Contato />}></Route> 
+            <Route path='/Fotos' element={<Fotos />}></Route> 
+            <Route path='/Comentarios' element={<Comentarios />}></Route> 
           </Routes>
           <Footer></Footer>  
         </BrowserRouter>
